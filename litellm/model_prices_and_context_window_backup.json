@@ -749,6 +749,20 @@
         "output_cost_per_token": 0.0000009,
         "litellm_provider": "together_ai"
     },
+    "ollama/baichuan2": {
+        "max_tokens": 4096,
+        "input_cost_per_token": 0.001,
+        "output_cost_per_token": 0.001,
+        "litellm_provider": "ollama",
+        "mode": "completion"
+    },
+    "ollama/yi:34b-chat": {
+        "max_tokens": 4096,
+        "input_cost_per_token": 0.001,
+        "output_cost_per_token": 0.001,
+        "litellm_provider": "ollama",
+        "mode": "completion"
+    },
     "ollama/llama2": {
         "max_tokens": 4096,
         "input_cost_per_token": 0.0,
